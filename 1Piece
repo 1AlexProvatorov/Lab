@@ -1,1 +1,13 @@
+import time
 
+start = time.time()
+N = str(input('Введите число N:'))
+
+ascii_values = []
+for meaning in N:
+    ascii_values.append(ord(meaning))
+
+a = str(0)
+ascii0 = 0
+for meaning in a:
+    ascii0 = ord(meaning)

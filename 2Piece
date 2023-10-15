@@ -1,1 +1,13 @@
+chislo = []
+for i in ascii_values:
+    chislo.append(i - ascii0)
 
+sum = 0
+for i in chislo:
+    sum = sum + i
+
+ost = sum % 9
+if ost == 0:
+    print('Да')
+else:
+    print('Нет')

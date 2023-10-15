@@ -1,1 +1,3 @@
-
+end = time .time()
+total = end - start
+print('Программа выполнилась за ', '%.10f' %total)
